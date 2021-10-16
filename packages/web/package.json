@@ -1,0 +1,39 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.15",
+    "@chakra-ui/react": "^1.6.7",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@hookform/resolvers": "^2.8.0",
+    "@urql/exchange-graphcache": "^4.3.3",
+    "framer-motion": "^4",
+    "graphql": "^15.5.3",
+    "graphql-tag": "^2.12.5",
+    "lottie-react": "^2.1.0",
+    "next": "11.1.2",
+    "next-urql": "^3.2.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.15.3",
+    "react-icons": "^4.2.0",
+    "styled-components": "^5.3.1",
+    "urql": "^2.0.4",
+    "video.js": "^7.15.4",
+    "videojs-contrib-quality-levels": "^2.1.0",
+    "videojs-hls-quality-selector": "^1.1.4",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2"
+  }
+}
