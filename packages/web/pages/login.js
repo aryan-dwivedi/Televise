@@ -69,9 +69,16 @@ export default function LoginPage() {
   }, [error, count]);
 
   return (
-    <Flex height="100vh" justifyContent="center" alignItems="center" bg="blackAlpha.800">
+    <Flex
+      height="100vh"
+      justifyContent="center"
+      alignItems="center"
+      bg="blackAlpha.800"
+    >
       <Flex direction="column" background="blackAlpha.700" p={12} rounded={20}>
-        <Heading mb={5} color="white">Login</Heading>
+        <Heading mb={5} color="white">
+          Login
+        </Heading>
         <form onSubmit={handleSubmit(onSubmit)}>
           <Controller
             name="usernameOrEmail"
@@ -82,7 +89,7 @@ export default function LoginPage() {
             render={({ field }) => (
               <InputGroup>
                 <InputLeftElement pointerEvents="none">
-                <Icon as={FaUserAlt} color="gray.300" />
+                  <Icon as={FaUserAlt} color="gray.300" />
                 </InputLeftElement>
                 <Input
                   {...field}
@@ -169,7 +176,9 @@ export default function LoginPage() {
             bg="white"
           >
             <NextLink href="/signup" passHref>
-              <LinkOverlay color="purple" fontWeight="bold">Create New Account</LinkOverlay>
+              <LinkOverlay color="purple" fontWeight="bold">
+                Create New Account
+              </LinkOverlay>
             </NextLink>
           </Button>
         </Flex>
